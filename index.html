@@ -1,34 +1,217 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title style="font-family: Arial">Galactic Universe</title>
-    <link href="style01.css" rel="stylesheet" type="text/css" />
-    <link rel="icon" href="images/favicons/favicon.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Galactic Universe</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
 </head>
 
 <body>
-    <header>
-        <div class="wrapper">
-            <div class="logo">
-                <img src="images/logo.png" alt="logo">
+    <!-- Header -->
+    <section id="header">
+        <div class="header container">
+            <div class="nav-bar">
+                <div class="brand">
+                    <a href="#hero">
+                        <h1><span>G</span>alactic <span>U</span>niverse</h1>
+                    </a>
+                </div>
+                <div class="nav-list">
+                    <div class="hamburger">
+                        <div class="bar"></div>
+                    </div>
+                    <ul>
+                        <li><a href="#hero" data-after="Home">Home</a></li>
+                        <li><a href="#services" data-after="Games">Games</a></li>
+                        <li><a href="#games" data-after="Videos">Videos</a></li>
+                        <li><a href="#about" data-after="About">About</a></li>
+                        <li><a href="#contact" data-after="Contact">Contact</a></li>
+                    </ul>
+                </div>
             </div>
-            <ul class="nav-area">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="games.html">Games</a></li>
-                <li><a href="portfolio.galactic-universe.com">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
         </div>
+    </section>
+    <!-- End Header -->
 
-        <div class="welcome-text">
-            <h1>Games made for you</h1>
-            <a href="games.html">Discover Games</a>
+
+    <!-- Hero Section  -->
+    <section id="hero">
+        <div class="hero container">
+            <div>
+                <h1>Welcome to, <span></span></h1>
+                <h1>Galactic <span></span></h1>
+                <h1>Universe <span></span></h1>
+                <a href="#videos" type="button" class="cta">Games</a>
+            </div>
         </div>
-    </header>
+    </section>
+    <!-- End Hero Section  -->
+
+    <!-- Service Section -->
+    <section id="services">
+        <div class="services container">
+            <div class="service-top">
+                <h1 class="section-title">Games<span></span></h1>
+                <p>Read about upcoming video game Maple Farm, in short it is a farming adventure game with a rich story line and a massive map to explore. so what are your waiting for check out the development now...
+                </p>
+            </div>
+            <div class="service-bottom">
+                <div class="service-item">
+                    <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+                    <h2>Farming</h2>
+                    <p>Plant, crops and watch them grow. There will be different types of crops chich all will have there own special ability.</p>
+                </div>
+                <div class="service-item">
+                    <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+                    <h2>Exploration</h2>
+                    <p>Explore a vast land with many different biomes and structures to loot for treasures.</p>
+                </div>
+                <div class="service-item">
+                    <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+                    <h2>Combat</h2>
+                    <p>Fight monsters from the depths of caves and destroy bosses for their precious rewards.</p>
+                </div>
+                <div class="service-item">
+                    <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+                    <h2>Animals</h2>
+                    <p>Care and look after animals, harvest their produce and watch them grow.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Service Section -->
+
+    <!-- Projects Section -->
+    <section id="games">
+        <div class="projects container">
+            <div class="projects-header">
+                <h1 class="section-title">Recent <span>Videos</span></h1>
+            </div>
+            <div class="all-projects">
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>2D Top Down Movement In Unity</h1>
+                        <h2>Tutorial</h2>
+                        <p>In this video I will show you how to make top-down movement in Unity, best of all it only takes 5 minutes. This will show you how to write the movement script, what to assign to all the variable and much more.</p>
+                    </div>
+                    <div class="project-img">
+                        <img src="./img/video-1.png" alt="img">
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>Unity 5 Minute Tutorial | Custom Save System With PlayerPrefs</h1>
+                        <h2>Tutorial</h2>
+                        <p>In this video you will learn how to create a custom save system with playerprefs. This save system allows you to save multiple variables in one playerpref save, save multiple data types together and you can reuse the save script
+                            on as many objects as possible all you need to do is change in the ID.</p>
+                    </div>
+                    <div class="project-img">
+                        <img src="./img/video-2.png" alt="img">
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>I did the unthinkable | Maple Farm Devlog 01</h1>
+                        <h2>Devlog</h2>
+                        <p>Welcome to my new game Maple Farm, this is it's first official devlog. The basic idea of the game is you are a lost adventure who gets washed up on one of the Maple Islands then get given Maple Farm from the mayor and you have
+                            to plant crops, forage for strange materials, traverse he dangerous caves, and rid the island from the evil creatures.</p>
+                    </div>
+                    <div class="project-img">
+                        <img src="./img/video-3.png" alt="img">
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>Hydra RPG Devlog #4 | Interactables</h1>
+                        <h2>Devlog</h2>
+                        <p>In today's video I will show you guys how I improved my games interables, added a fishing mechanic and created over 30 new items.</p>
+                    </div>
+                    <div class="project-img">
+                        <img src="./img/video-4.png" alt="img">
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>Hydra RPG Devlog #1 | Adding a shop</h1>
+                        <h2>Devlog</h2>
+                        <p>Welcome to the first official Hydra RPG devlog. In this devlog I will show you how I added a shop, coins and catching system into my game Hydra RPG.</p>
+                    </div>
+                    <div class="project-img">
+                        <img src="./img/video-5.png" alt="img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Projects Section -->
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="about container">
+            <div class="col-left">
+                <div class="about-img">
+                    <img src="./img/img-2.png" alt="img">
+                </div>
+            </div>
+            <div class="col-right">
+                <h1 class="section-title">About <span>us</span></h1>
+                <h2>Game Development Studio</h2>
+                <p>Galactic Universe is a game development studio which is currently making Maple Farm the next hit farming game. At Galactic Universe we try to give you the best video game experience ever check out some of our games below...</p>
+                <a href="#services" class="cta">Games</a>
+            </div>
+        </div>
+    </section>
+    <!-- End About Section -->
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="contact container">
+            <div>
+                <h1 class="section-title">Contact <span>info</span></h1>
+            </div>
+            <div class="contact-items">
+                <div class="contact-item">
+                    <div class="icon"><img src="img/discord-logo.png" /></div>
+                    <div class="contact-info">
+                        <h1>Discord</h1>
+                        <h2>discord.gg/SgdzdnNmws</h2>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+                    <div class="contact-info">
+                        <h1>Email</h1>
+                        <h2>info@galactic-universe.com</h2>
+                        <h2>help@galactic-universe.com</h2>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="icon"><img src="img/youtube-logo.png" /></div>
+                    <div class="contact-info">
+                        <h1>Youtube</h1>
+                        <h2>youtube.com/@scratcherdev</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Contact Section -->
+
+    <!-- Footer -->
+    <section id="footer">
+        <div class="footer container">
+            <div class="brand">
+                <h1><span>G</span>alactic <span>U</span>niverse</h1>
+            </div>
+            <h2>Game Development Studio</h2>
+            <p>Copyright © 2022 Galactic Universe. All rights reserved</p>
+        </div>
+    </section>
+    <!-- End Footer -->
+    <script src="./app.js"></script>
 </body>
 
 </html>
